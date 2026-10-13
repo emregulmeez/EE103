@@ -5,4 +5,7 @@ for i in range(0,x+1):
 print(f"The running sum of {x} is {runningsum}")
 runningsum_gauss=(x*(x+1))/2
 print(f"The running sum of {x} using Gauss formula is {runningsum_gauss}")  
-
+if runningsum==runningsum_gauss:
+    print("My running sum code works correctly")
+else:
+    print("My running sum code does not work correctly")
